@@ -1,20 +1,20 @@
-import Describtion from '@/Components/asmar sofa/describtion';
-import Cart from '@/Components/contact/cart/cart';
-import Checkout from '@/Components/contact/checkout';
-import Hero from '@/Components/hero/hero';
-import Shop from '@/Components/Shop/shop';
+import Description from '@/components/AsmarSofa/Describtion';
+import Cart from '@/components/Contact/Cart/Cart';
+import Checkout from '@/components/Contact/Checkout';
+import Hero from '@/components/Hero/Hero';
+import Shop from '@/components/Shop/Shop';
 import React from 'react';
-import Contact from '@/Components/contact/contact';
-import Myaccount from '@/Components/myaccount/myaccount';
-import Blog from '@/Components/blog/blog';
+import Contact from '@/components/Contact/Contact';
+import MyAccount from '@/components/MyAccount/MyAccount';
+import Blog from '@/components/Blog/Blog';
 
 const App = () => {
   return (
    <div>
 <Hero/>
 <Shop/>
-<Describtion/>
-<Myaccount/>
+<Description/>
+<MyAccount/>
 <Checkout/>
 <Cart/>
 <Contact/>
